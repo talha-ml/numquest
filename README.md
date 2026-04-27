@@ -26,27 +26,11 @@
 
 <br>
 
-## 📱 App Screenshots
+## 📱 App Screens
 
-<div align="center">
-
-### 🏠 Home Screen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🎮 Game Screen
-
-<img src="Screenshots/home.jpeg" width="220" alt="Home Screen"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="Screenshots/game.jpeg" width="220" alt="Game Screen"/>
-
-<br><br>
-
-### 🏆 Result Screen (Win) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💀 Result Screen (Lose)
-
-<img src="Screenshots/result_win.jpeg" width="220" alt="Win Screen"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="Screenshots/result_lose.jpeg" width="220" alt="Lose Screen"/>
-
-<br><br>
-
-### 📜 History — Sessions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📊 History — Stats
-
-<img src="Screenshots/history_sessions.jpeg" width="220" alt="Sessions Screen"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="Screenshots/history_stats.jpeg" width="220" alt="Stats Screen"/>
-
-</div>
+| Home | Game | Result | History |
+|:---:|:---:|:---:|:---:|
+| Difficulty picker + quick stats | Live input, smart range, lives | Score, grade & guess trail | Sessions list + stats dashboard |
 
 <br>
 
@@ -118,14 +102,6 @@ numquest/
 │       ├── game_screen.dart         ← Active game — input, hints, lives bar
 │       ├── result_screen.dart       ← Win / Lose result, score & grade
 │       └── history_screen.dart      ← Sessions list + full stats dashboard
-│
-├── screenshots/                     ← 📸 Screenshots folder
-│   ├── home.jpeg
-│   ├── game.jpeg
-│   ├── result_win.jpeg
-│   ├── result_lose.jpeg
-│   ├── history_sessions.jpeg
-│   └── history_stats.jpeg
 │
 └── pubspec.yaml
 ```
