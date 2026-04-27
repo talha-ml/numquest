@@ -26,11 +26,31 @@
 
 <br>
 
-## 📱 App Screens
+## 📱 App Screenshots
 
-| Home | Game | Result | History |
-|:---:|:---:|:---:|:---:|
-| Difficulty picker + quick stats | Live input, smart range, lives | Score, grade & guess trail | Sessions list + stats dashboard |
+<div align="center">
+
+### 🏠 Home Screen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🎮 Game Screen
+
+<img src="screenshots/home.jpg" width="220" alt="Home Screen"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/game.jpg" width="220" alt="Game Screen"/>
+
+<br><br>
+
+### 🏆 Result Screen (Win) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💀 Result Screen (Lose)
+
+<img src="screenshots/result_win.jpg" width="220" alt="Win Screen"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/result_lose.jpg" width="220" alt="Lose Screen"/>
+
+<br><br>
+
+### 📜 History — Sessions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📊 History — Stats
+
+<img src="screenshots/history_sessions.jpg" width="220" alt="Sessions Screen"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/history_stats.jpg" width="220" alt="Stats Screen"/>
+
+</div>
+
+<br>
+
+> 📁 **To add screenshots:** create a `screenshots/` folder in the project root and place your images there with the exact filenames above.
 
 <br>
 
@@ -102,6 +122,14 @@ numquest/
 │       ├── game_screen.dart         ← Active game — input, hints, lives bar
 │       ├── result_screen.dart       ← Win / Lose result, score & grade
 │       └── history_screen.dart      ← Sessions list + full stats dashboard
+│
+├── screenshots/                     ← 📸 Put your screenshots here
+│   ├── home.jpg
+│   ├── game.jpg
+│   ├── result_win.jpg
+│   ├── result_lose.jpg
+│   ├── history_sessions.jpg
+│   └── history_stats.jpg
 │
 └── pubspec.yaml
 ```
